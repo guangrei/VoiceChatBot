@@ -1,0 +1,6 @@
+name: Action aiml Dumper
+description: Dump aiml files to single file
+
+runs:
+  using: docker
+  image: Dockerfile
