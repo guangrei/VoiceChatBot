@@ -3,7 +3,7 @@ name: Workflow for dump aiml
 on: [push]
 
 jobs:
-  minify:
+  aimldump:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
