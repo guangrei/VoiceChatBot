@@ -4,7 +4,7 @@ import aiml
 from sl4awrapper import Sl4aWrapper
 
 
-BRAIN_FILE = "/sdcard/qpython/projects/VoiceChatBot/brain.dump"
+BRAIN_FILE = os.path.dirname(sys.argv[0])+"/brain.dump"
 bot = Sl4aWrapper()
 k = aiml.Kernel()
 
