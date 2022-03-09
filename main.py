@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import os
+import sys
 import aiml
 from sl4awrapper import Sl4aWrapper
 
